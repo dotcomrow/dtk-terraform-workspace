@@ -9,3 +9,9 @@ variable "cloudflare_zone_id" {
   type        = string
   nullable = false
 }
+
+variable "cloudflare_token" {
+  description = "cloudflare token"
+  type        = string
+  nullable = false
+}
